@@ -1,0 +1,40 @@
+*{
+ box-sizing: border-box;
+ padding: 0;
+ margin: 0;  
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 80vh;
+    width: 90vw;
+    display: flex;
+}
+
+.panel1{
+    text-align: center;
+    flex: 6;
+    background-color: skyblue;
+}
+
+.panel2{
+    text-align: center;
+    flex: 3;
+    background-color: green;
+}
+
+.panel3{
+    text-align: center;
+    flex: 2;
+    background-color: orange;
+}
+
+.panel4{
+    text-align: center;
+    flex: 4;
+    background-color: yellow;
+}
